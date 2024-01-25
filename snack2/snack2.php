@@ -57,8 +57,12 @@
                         </div>
                     </form>
                     <div class="col-12">
+                        <?php if(isset($_GET['nome'])){ ?>
                             <?php echo 'Accesso'.$risultato ?>
-                        </div>
+                        <?php } ?>
+    
+                        
+                    </div>
                 </div>
             </div>
         </div>
