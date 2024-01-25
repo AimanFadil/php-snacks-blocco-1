@@ -38,13 +38,11 @@
     ]
     
 ?>
-<?php for($i = 0; $i < count($squadre); $i++){ ?>
-    
-    <p>
-        <?php foreach($squadre[$i] as $squadra){
-            echo $squadra.'   ';
-        } ?>
-    </p>
-<?php }?>
+<?php
+    foreach($squadre as $squadra){
+        echo $squadra['squadraCasa']." - ".$squadra['squadraOspite']." | ".$squadra['puntiCasa']." - ".$squadra['puntiOspite']."<br>";
+    }
+?>
+
 
 

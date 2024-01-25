@@ -29,7 +29,7 @@
                 <h1>ACCEDI INSERENDO I TUOI DATI</h1>
             </div>
             <div class="col-12">
-                <div class="content ">
+                <div>
                     <form action="snack2.php" method="GET">
                         <div class="col-6">
                             <div class="form-group py-3 ">
